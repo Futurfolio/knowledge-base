@@ -33,6 +33,10 @@
     {
       "name": "FAQ",
       "url": "faq"
+    },
+    {
+      "name": "Widgets",
+      "url": "widgets"
     }
   ],
   "anchors": [
