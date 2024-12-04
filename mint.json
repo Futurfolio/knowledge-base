@@ -27,12 +27,8 @@
   },
   "tabs": [
     {
-      "name": "Questions",
-      "url": "faq"
-    },
-    {
       "name": "Youtube",
-      "url": "https://youtube.com"
+      "url": "faq"
     }
   ],
   "anchors": [
