@@ -28,6 +28,10 @@
   "tabs": [
     {
       "name": "Youtube",
+      "url": "https://youtube.com"
+    },
+    {
+      "name": "FAQ",
       "url": "faq"
     }
   ],
