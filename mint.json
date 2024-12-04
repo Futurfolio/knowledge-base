@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Knowledge Base",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/Logo.webp",
+    "light": "/logo/Logo.webp"
   },
   "favicon": "/favicon.svg",
   "colors": {
