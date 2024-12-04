@@ -28,7 +28,7 @@
   "tabs": [
     {
       "name": "FAQ",
-      "url": "faq"
+      "url": "/faq"
     }
   ],
   "anchors": [
