@@ -4,26 +4,39 @@ description: "Frequently Asked Questions"
 ---
 
 <Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
+  If you cannot find answer to your question here or by searching our knowledge base, please contact support@futurfolio.com, we are happy to help!
 </Note>
 
-## Welcome
+<AccordionGroup>
+  <Accordion title="What is WebAuthN and why is it used by Futurfolio?">
+    
+    WebAuthn, short for Web Authentication, is a web standard developed by the World Wide Web Consortium (W3C) and the FIDO Alliance. It's designed to provide a more secure and user-friendly way to authenticate users to web-based applications and services [https://webauthn.io/].
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+    <b>Here are some key points about WebAuthn:</b>
 
-<Card title="Plant Store Endpoints" icon="leaf" href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json">
-  View the OpenAPI specification file
-</Card>
+    <li>Passwordless Authentication: WebAuthn enables strong authentication using public-key cryptography, which means you can log in without needing a traditional password. Instead, it uses methods like biometrics (fingerprints or facial recognition) or hardware tokens (like a YubiKey).</li>
 
-## Authentication
+    <li>Multi-Factor Authentication (MFA): It supports multi-factor authentication by combining something you are (biometric ID) and something you have (your device).</li>
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+    <li>Security: WebAuthn is resistant to phishing attacks and doesn't require passwords, which are often vulnerable to theft and hacking.</li>
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+    <li>Compatibility: It's supported by major browsers like Chrome, Firefox, Edge, and Safari, and is widely adopted by services like Google, Facebook, and Microsoft.</li>
+
+  </Accordion>
+
+  <Accordion title="I cannot add an investment">
+    You must have deposited money to an account before adding investments to it.
+  </Accordion>
+
+  <Accordion title="Can I export data out later?">
+    We can export your data to JSON. Please contact suppor@futurfolio.com.
+  </Accordion>
+
+  <Accordion title="I found a bug or a security issue, where do I report it?">
+    Please send it to support@futurfolio.com as soon as possible. All critical findings will be compensated!
+  </Accordion>
+
+  <Accordion title="Where is Futurfolio based?">
+    We are based in Tallinn, Estonia.
+  </Accordion>
+</AccordionGroup>

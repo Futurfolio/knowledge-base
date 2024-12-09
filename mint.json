@@ -25,12 +25,6 @@
     "name": "Dashboard",
     "url": "https://app.futurfolio.com"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "faq"
-    }
-  ],
   "anchors": [
       {
       "name": "Website",
@@ -49,18 +43,37 @@
       "pages": [
         "introduction",
         "quickstart",
-        "overview"
+        "dashboards/stocks",
+        "dashboards/loans",
+        "faq/faq"
+      ]
+    },
+    {
+      "group": "Widgets",
+      "pages": [
+        {
+          "group": "Main Widgets",
+          "pages": ["widgets/overview", "widgets/accounts", "widgets/transactions", "widgets/table"]
+        },
+        {
+          "group": "Optional Widgets",
+          "pages": ["widgets/risk", "widgets/cashflow"]
+        },
+        {
+          "group": "3rd-Party Widgets",
+          "pages": ["widgets/news", "widgets/euribor"]
+        }
       ]
     },
     {
       "group": "Essentials",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "essentials/security",
+        "essentials/widgets",
+        "essentials/dragging",
+        "essentials/currencies",
+        "essentials/notifications",
+        "essentials/deletion"
       ]
     }
   ],
