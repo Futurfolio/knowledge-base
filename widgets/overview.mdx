@@ -2,3 +2,23 @@
 title: "Overwiev"
 description: "How overview widget works"
 ---
+
+Shows total net worth before or after 20% taxes and fee deductions, profit or XIRR by clicking it and chosen interval graph. 
+
+<img alt="News" classname="block dark:hidden" src="/images/widgets/Overview.webp" />
+
+## Total net worth calculations
+All your accounts free money and investment values combined on the current dashboard or all dashboards combined if on the main dashboard.
+
+## Profit calculation
+Sums up finalized profits and losses for each day and adds potential profit from current investments
+
+## % change calculation
+`profit / (total value - profit)`
+
+## XIRR calculation
+Graph passed to 3rd-party XIRR library
+
+<Warning>
+    It fails if there are no transactions.
+</Warning>

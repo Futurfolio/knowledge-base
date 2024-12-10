@@ -3,15 +3,121 @@ title: "Risk"
 description: "How risk widget works"
 ---
 
+<img alt="News" classname="block dark:hidden" src="/images/widgets/Risk.webp" />
+
+### Risk level
+Shows score on the scale of `1-100` how risky your portfolio is.
+
+### Investments size allocation
+The ring around the risk score shows how your investments are allocated according to value.
+<Accordion title="Critical">
+    Extremely high risk of one investment affecting your entire portfolio negatively.
+</Accordion>
+<Accordion title="Unbalanced">
+    Some investments could affect remarkably your entire portfolio.
+</Accordion>
+<Accordion title="Balanced">
+    Investments are allocated evenly enough to have low risk on the portfolio.
+</Accordion>
+<Accordion title="Almost Even">
+    Almost all investments are worth the same amount.
+</Accordion>
+<Accordion title="Perfect">
+    Perfectly even investment allocation.
+</Accordion>
+
+
 ### Views
 <Tabs>
   <Tab title="Main">
-    💪 Here's content that's only inside the third Tab.
+    #### Categories
+    In how many different categories have you invested.
+    
+    #### Volatility
+    How much your portfolio value fluctuates.
+
+    #### Liquidity
+    What percentage of your investments can you cash out right now.
+    
+    #### Highest fees
+    What is the highest fee across yout accounts.
+
   </Tab>
   <Tab title="Stocks">
-    ☝️ Welcome to the content that you can only see inside the first Tab.
+    #### Industries
+    In how many loan categories have you invested
+    #### P/E
+    What is the average Price/Equity of your portfolio.
+    <Accordion title="Very agressive">
+        Too high!
+    </Accordion>
+    <Accordion title="Agressive">
+        Quite high!
+    </Accordion>
+    <Accordion title="Balanced">
+        Considered good for average investor.
+    </Accordion>
+    <Accordion title="Conservative">
+        Safe stock portfolio choice.
+    </Accordion>
+    <Accordion title="Very conservative">
+        Very safe stock portfolio choice.
+    </Accordion>
+
+    #### Liquidity
+    How many loans are marked with secured tick.
+    
+    #### Volatility
+    How much your portfolio value fluctuates.
+
   </Tab>
   <Tab title="Loans">
-    ✌️ Here's content that's only inside the second Tab.
+    #### Categories
+    In how many loan categories have you invested.
+    #### Interest
+    What is the interest level.
+    <Accordion title="Very agressive">
+        Too high!
+    </Accordion>
+    <Accordion title="Agressive">
+        Quite high!
+    </Accordion>
+    <Accordion title="Balanced">
+        Considered good for average investor.
+    </Accordion>
+    <Accordion title="Conservative">
+        Safe loan portfolio choice.
+    </Accordion>
+    <Accordion title="Very conservative">
+        Very safe loan portfolio choice, high inflation risk.
+    </Accordion>
+
+    #### Secured
+    How many loans are marked with secured tick.
+    
+    #### Late payments
+    How many late payments there are across all loans.
+
   </Tab>
 </Tabs>
+
+### Timing
+
+Timing calendar shows your investing consistency and timing allocation.
+
+<Accordion title="Very risky">
+    Should definately invest more to lower the risk.
+</Accordion>
+<Accordion title="Undistributed">
+    Spread the invesments out more.
+</Accordion>
+<Accordion title="Distributed">
+    Very good timing allocation of your investments!
+</Accordion>
+<Accordion title="Perfect">
+    Fantastic consistency and timing of your investments. Risk is low thanks to perfect investment distribution in time.
+</Accordion>
+
+<Note>
+    The darker the square, the higher amount of invesments made during that day.
+</Note>
